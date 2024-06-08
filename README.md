@@ -16,23 +16,24 @@ you can find the dataset [here](link here soon)
 ```
 neuromorph/
   logs/
-    - subj_block1.csv
-    - subj_block2.csv
+    - subj_block1_lexical-decision.csv
+    - subj_block2_lexical-decision.csv
   anat/
     subj/
-    - block1_before.mkr
-    - block1_after.mkr
-    - block2_before.mkr
-    - block2_after.mkr
-    - TARK_before.mkr
-    - TARK_after.mkr
+    - block1_lexical-decision_before.mkr
+    - block1_lexical-decision_after.mkr
+    - block2_lexical-decision_before.mkr
+    - block2_lexical-decision_after.mkr
+    - localizer_before.mkr
+    - localizer_after.mkr
     - headshape.txt
     - points.txt
   meg/
     subj/
-      - block1.con
-      - block2.con
-      - TARK.con
+      - block1_lexical-decision.con
+      - block2_lexical-decision.con
+      - localizer.con
+      - lexical-decision_noise-reduced.fif
 ```
 
 ### what's included in the github repo
@@ -48,7 +49,9 @@ neuromorph/
 ```
 ### some resources for getting started
 
+https://mne.tools/stable/documentation/cookbook.html
 https://mne.tools/stable/documentation/glossary.html
+
 
 
 
