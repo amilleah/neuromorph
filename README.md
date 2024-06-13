@@ -6,7 +6,6 @@
 
 **Keywords:** natural language processing, morphemes, cognitive science, linguistics, magnetoencephalography, MEG
 
-you can find the paper [here](https://openreview.net/attachment?id=i6gd9PUq9I&name=pdf))
 you can find the dataset [here](https://openneuro.org/datasets/ds005241)
 
 ---
