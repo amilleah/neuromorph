@@ -4,47 +4,60 @@
 
 **Keywords:** natural language processing, morphemes, cognitive science, linguistics, magnetoencephalography, MEG
 
-[paper here](link here soon)
+you can find the paper [here](https://openreview.net/attachment?id=i6gd9PUq9I&name=pdf))
 
 ---
 
 ### dataset links
 
-you can find the dataset [here](link here soon)
+you can find the dataset [here](https://openneuro.org/datasets/ds005241)
 
 ### what's included in the dataset (n = 24)
 ```
-neuromorph/
-  logs/
-    - subj_block1_lexical-decision.csv
-    - subj_block2_lexical-decision.csv
-  anat/
-    subj/
-    - block1_lexical-decision_before.mkr
-    - block1_lexical-decision_after.mkr
-    - block2_lexical-decision_before.mkr
-    - block2_lexical-decision_after.mkr
-    - localizer_before.mkr
-    - localizer_after.mkr
-    - headshape.txt
-    - points.txt
-  meg/
-    subj/
-      - block1_lexical-decision.con
-      - block2_lexical-decision.con
-      - localizer.con
-      - lexical-decision_noise-reduced.fif
+|neuromorph/
+|--- README
+|--- dataset_description.json
+|--- participants.json
+|--- participants.tsv
+|--- sub-A0394/
+|------ ses-01/
+|--------- sub-A0394_ses-01_scans.tsv
+|--------- meg/
+|------------ sub-A0394_ses-01_coordsystem.json
+|------------ sub-A0394_ses-01_task-lexicaldecision_channels.tsv
+|------------ sub-A0394_ses-01_task-lexicaldecision_events.json
+|------------ sub-A0394_ses-01_task-lexicaldecision_events.tsv
+|------------ sub-A0394_ses-01_task-lexicaldecision_meg.json
+|------------ sub-A0394_ses-01_task-lexicaldecision_split-01_meg.fif
+|------------ sub-A0394_ses-01_task-lexicaldecision_split-02_meg.fif
+|------ ses-02/
+|--------- sub-A0394_ses-02_scans.tsv
+|--------- meg/
+|------------ sub-A0394_ses-02_coordsystem.json
+|------------ sub-A0394_ses-02_task-lexicaldecision_channels.tsv
+|------------ sub-A0394_ses-02_task-lexicaldecision_events.json
+|------------ sub-A0394_ses-02_task-lexicaldecision_events.tsv
+|------------ sub-A0394_ses-02_task-lexicaldecision_meg.json
+|------------ sub-A0394_ses-02_task-lexicaldecision_split-01_meg.fif
+|------------ sub-A0394_ses-02_task-lexicaldecision_split-02_meg.fif
+|------ ses-tark/
+|--------- sub-A0394_ses-tark_scans.tsv
+|--------- meg/
+|------------ sub-A0394_ses-tark_coordsystem.json
+|------------ sub-A0394_ses-tark_task-localizer_channels.tsv
+|------------ sub-A0394_ses-tark_task-localizer_events.json
+|------------ sub-A0394_ses-tark_task-localizer_events.tsv
+|------------ sub-A0394_ses-tark_task-localizer_meg.fif
+|------------ sub-A0394_ses-tark_task-localizer_meg.json
 ```
 
 ### what's included in the github repo
 ```
 neuromorph/
   -Tark Analysis Clean.ipynb
-  -neuromorph_analysis.ipynb
   -neuromorph_preprocessing.ipynb
-  -neuromorph_stc_plotting.ipynb
-  -mne.yml
-  -eelbrain.yml
+  -neuromorph_plotting.ipynb
+  -requirements.txt
   -README.md
 ```
 ### some resources for getting started
