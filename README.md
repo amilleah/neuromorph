@@ -13,65 +13,21 @@ you can find the dataset [here](https://openneuro.org/datasets/ds005241)
 
 ### what's included in the github
 
-The repository includes a few Jupyter notebooks to help you preprocess and analyze the data for both the lexical decision task and the functional localizer:
-
-```
-neuromorph/
-  -Tark Analysis Clean.ipynb
-  -neuromorph_preprocessing.ipynb
-  -neuromorph_plotting.ipynb
-  -requirements.txt
-  -README.md
-```
+The repository includes a few Jupyter notebooks to help you preprocess and analyze the data for both the lexical decision task and the functional localizer
 
 ### dataset details (n = 24)
 
-We use MEG-BIDS format (version 1.7.0) to structure and publish the dataset on OpenNeuro:
-
-```
-|neuromorph/
-|--- README
-|--- dataset_description.json
-|--- participants.json
-|--- participants.tsv
-|--- sub-A0394/
-|------ ses-01/
-|--------- sub-A0394_ses-01_scans.tsv
-|--------- meg/
-|------------ sub-A0394_ses-01_coordsystem.json
-|------------ sub-A0394_ses-01_task-lexicaldecision_channels.tsv
-|------------ sub-A0394_ses-01_task-lexicaldecision_events.json
-|------------ sub-A0394_ses-01_task-lexicaldecision_events.tsv
-|------------ sub-A0394_ses-01_task-lexicaldecision_meg.json
-|------------ sub-A0394_ses-01_task-lexicaldecision_split-01_meg.fif
-|------------ sub-A0394_ses-01_task-lexicaldecision_split-02_meg.fif
-|------ ses-02/
-|--------- sub-A0394_ses-02_scans.tsv
-|--------- meg/
-|------------ sub-A0394_ses-02_coordsystem.json
-|------------ sub-A0394_ses-02_task-lexicaldecision_channels.tsv
-|------------ sub-A0394_ses-02_task-lexicaldecision_events.json
-|------------ sub-A0394_ses-02_task-lexicaldecision_events.tsv
-|------------ sub-A0394_ses-02_task-lexicaldecision_meg.json
-|------------ sub-A0394_ses-02_task-lexicaldecision_split-01_meg.fif
-|------------ sub-A0394_ses-02_task-lexicaldecision_split-02_meg.fif
-|------ ses-tark/
-|--------- sub-A0394_ses-tark_scans.tsv
-|--------- meg/
-|------------ sub-A0394_ses-tark_coordsystem.json
-|------------ sub-A0394_ses-tark_task-localizer_channels.tsv
-|------------ sub-A0394_ses-tark_task-localizer_events.json
-|------------ sub-A0394_ses-tark_task-localizer_events.tsv
-|------------ sub-A0394_ses-tark_task-localizer_meg.fif
-|------------ sub-A0394_ses-tark_task-localizer_meg.json
-```
+KIT/Yokogawa MEG system with 208 magnetometer channels
+24 recordings amounting to over 17 hours of data
+stored in MEG-BIDS format (version 1.7.0)
+the dataset is published on OpenNeuro
 
 ### and some resources for getting started
 
 https://mne.tools/stable/documentation/cookbook.html
 https://mne.tools/stable/documentation/glossary.html
 
-### References
+### references
 
 Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896
 
