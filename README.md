@@ -6,27 +6,35 @@
 
 **Keywords:** natural language processing, morphemes, cognitive science, linguistics, magnetoencephalography, MEG
 
-you can find the dataset [here](https://openneuro.org/datasets/ds005241)
+You can find the dataset on [OpenNeuro](https://openneuro.org/datasets/ds005241)
 
 ---
 
-### what's included in the github
+### Download the dataset
 
-The repository includes a few Jupyter notebooks to help you preprocess and analyze the data for both the lexical decision task and the functional localizer
+You can download the dataset from OpenNeuro using datalad: 
 
-### dataset details (n = 24)
+`pip install datalad`
+`datalad install https://github.com/OpenNeuroDatasets/ds005241.git`
+`datalad get .`
+
+### What's included in the github
+
+The repository includes a few Jupyter notebooks to help you preprocess and analyze the data for both the lexical decision task and the functional localizer. It also includes ML modelling code for two classification tasks. 
+
+### Dataset details (n = 24)
 
 KIT/Yokogawa MEG system with 208 magnetometer channels
 24 recordings amounting to over 17 hours of data
 stored in MEG-BIDS format (version 1.7.0)
 the dataset is published on OpenNeuro
 
-### and some resources for getting started
+### And some resources for getting started
 
 https://mne.tools/stable/documentation/cookbook.html
 https://mne.tools/stable/documentation/glossary.html
 
-### references
+### References
 
 Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896
 
