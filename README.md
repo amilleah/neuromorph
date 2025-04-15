@@ -1,6 +1,6 @@
 ## NeuroMorph: A High-Temporal Resolution MEG Dataset for Morpheme-Based Linguistic Analysis
 
-**Authors:** Amilleah Rodriguez, Dan Zhao, Kyra Wilson, Ritika Saboo, Sergey V Samsonau, Alec Marantz
+**Authors:** Amilleah Rodriguez, Kyra Wilson, Dan Zhao, Ritika Saboo, Sergey V Samsonau, Alec Marantz
 
 **TL;DR:** We present NeuroMorph: neural data of 24 high-resolution MEG recordings capturing real-time processing of multi-morphemic words with over 17 hours of data from a lexical decision task, which can help improve cognitive modeling and NLP.
 
@@ -20,7 +20,7 @@ You can download the dataset from OpenNeuro using datalad:
 
 ### What's included in the github
 
-The repository includes a few Jupyter notebooks to help you preprocess and analyze the data for both the lexical decision task and the functional localizer. It also includes ML modelling code for two classification tasks. 
+The repository includes a few Jupyter notebooks to help you preprocess and analyze the data for both the lexical decision task and the functional localizer. It also includes ML modeling code for two classification tasks. 
 
 ### Dataset details (n = 24)
 
